@@ -13,11 +13,6 @@ struct StarterView: View {
     
     var body: some View {
         Group {
-//            if userName.count > 0 {
-//                //userManager.name = userName
-//                //naming()
-//                ContentView()
-//            } else
             if userManager.isRegister || naming() {
                 ContentView()
             } else {
